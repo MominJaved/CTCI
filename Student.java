@@ -35,11 +35,11 @@ public class Student {
 		Student b = new Student("Mo", 2, 100, 19, "Passive");
 
 		System.out.println(a.getName());
-		a.setName("Yahoodi!");
+		a.setName("Javed");
 		System.out.println(a.getName());
 
 		System.out.println(b.getId());
-		b.setId(007);
+		b.setId(7);
 		System.out.println(b.getId());
 		
 	}
