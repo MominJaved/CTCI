@@ -9,6 +9,7 @@ public class IsPermutation {
 	}
 
 	public static boolean isPermutationString(String str1, String str2) {
+		if (str1.length() != str2.length()) return false;
 		String string1 = sort(str1);
 		String string2 = sort(str2);
 		System.out.println(string1);
@@ -17,6 +18,6 @@ public class IsPermutation {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(isPermutationString("Momin", "Nimom"));
+		System.out.println(isPermutationString("Momim", "Nimom"));
 	}
 }
